@@ -1,0 +1,37 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+h1,p,h3{
+	margin: 0px;
+}
+.container{
+	width: 900px;
+	margin: 0px auto;
+	text-align: justify;
+}
+#main{
+	width: 100%;
+	height: 100vh;
+	background: #0008;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#popup{
+	box-sizing: border-box;
+	padding: 10px;
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	background: #03a9f4;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#popup p{
+	padding: 30px 0px;
+	text-align: justify;
+}
